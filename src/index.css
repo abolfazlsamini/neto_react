@@ -1,13 +1,203 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base {
+  @font-face {
+    font-family: "Objectivity_Regular";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../public/Objectivity_Regular.woff2");
+  }
+  @font-face {
+    font-family: "abcgintonord_extrabold";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../public/abcgintonord_extrabold.woff2");
+  }
+  /* * {
+    outline: 1px red solid;
+  } */
+  .loader {
+    width: 30px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+
+    border: 4px solid #000000;
+    animation: l20-1 1.5s infinite linear alternate, l20-2 3s infinite linear;
+  }
+  @keyframes l20-1 {
+    0% {
+      clip-path: polygon(50% 50%, 0 0, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%);
+    }
+    12.5% {
+      clip-path: polygon(
+        50% 50%,
+        0 0,
+        50% 0%,
+        100% 0%,
+        100% 0%,
+        100% 0%,
+        100% 0%
+      );
+    }
+    25% {
+      clip-path: polygon(
+        50% 50%,
+        0 0,
+        50% 0%,
+        100% 0%,
+        100% 100%,
+        100% 100%,
+        100% 100%
+      );
+    }
+    50% {
+      clip-path: polygon(
+        50% 50%,
+        0 0,
+        50% 0%,
+        100% 0%,
+        100% 100%,
+        50% 100%,
+        0% 100%
+      );
+    }
+    62.5% {
+      clip-path: polygon(
+        50% 50%,
+        100% 0,
+        100% 0%,
+        100% 0%,
+        100% 100%,
+        50% 100%,
+        0% 100%
+      );
+    }
+    75% {
+      clip-path: polygon(
+        50% 50%,
+        100% 100%,
+        100% 100%,
+        100% 100%,
+        100% 100%,
+        50% 100%,
+        0% 100%
+      );
+    }
+    100% {
+      clip-path: polygon(
+        50% 50%,
+        50% 100%,
+        50% 100%,
+        50% 100%,
+        50% 100%,
+        50% 100%,
+        0% 100%
+      );
+    }
+  }
+  @keyframes l20-2 {
+    0% {
+      transform: scaleY(1) rotate(0deg);
+    }
+    49.99% {
+      transform: scaleY(1) rotate(135deg);
+    }
+    50% {
+      transform: scaleY(-1) rotate(0deg);
+    }
+    100% {
+      transform: scaleY(-1) rotate(-135deg);
+    }
+  }
+  h1 {
+    @apply text-[48px] leading-[60px] md:leading-[70px] xl:text-[72px];
+    font-family: "Objectivity_Regular";
+    font-weight: 700;
+  }
+  h2 {
+    @apply text-[38px] md:text-[48px] xl:text-[48px];
+    font-family: "Objectivity_Regular";
+    font-weight: 700;
+    line-height: 50px;
+  }
+  h3 {
+    font-family: "Objectivity_Regular";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+  }
+  p {
+    font-family: "Objectivity_Regular";
+    font-size: 18px;
+    color: #161616;
+  }
+  .Objectivity_Regular {
+    font-family: "Objectivity_Regular";
+  }
+  .slide:hover {
+    scale: var(--scalepercent, 97%);
+  }
+  .apearanimation {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all;
+    animation: apearaniamtion;
+    animation-duration: 1s;
+  }
+  @keyframes apearaniamtion {
+    from {
+      transform: translateY(10%);
+      opacity: 0;
+    }
+  }
+  .font-abcgintonord_extrabold {
+    font-family: "abcgintonord_extrabold";
+  }
+  .video_bg {
+    background-image: url(../public/video_main_bg.png);
+    background-size: cover;
+  }
+  .video_bg2 {
+    background-image: url(../public/video_bg_2.webp);
+    background-size: cover;
+  }
+  .video_bg3 {
+    background-image: url(../public/video_bg_3.webp);
+    background-size: cover;
+  }
+
+  @media (min-width: 768px) {
+    .carouselActive {
+      scale: 108%;
+    }
+    .carouselNotActive {
+      scale: 95%;
+    }
+  }
+  @media (max-width: 767.95px) {
+    .carouselNotActive {
+      scale: 100%;
+    }
+    .carouselActive {
+      scale: 100%;
+    }
+  }
+  .custom-paging button {
+    border-radius: 100%;
+    width: 20px;
+    background: transparent !important;
+    border: solid 1px white !important;
+  }
+
+  .custom-paging .slick-active button {
+    border-radius: 100%;
+    width: 20px;
+    border: solid 1px white;
+    background: #161cbb !important;
+  }
+  .slick-dots li button:before {
+    display: none;
+  }
 }
