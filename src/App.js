@@ -88,7 +88,7 @@ function App() {
     return (
       <section className="video_bg2">
         <div ref={jiggle_container} className="pb-32 pt-20  video_bg3">
-          <div className="mx-auto apearanimationobserver w-2/3 pb-5 md:pb-16 text-center text-white">
+          <div className="mx-auto apearanimationobserver sm:w-2/3 w-10/12 pb-10 md:pb-16 text-center text-white">
             <h2>
               With Neto Game the boundaries between reality and truth are
               redefined
@@ -142,7 +142,6 @@ function App() {
       className: "center",
       infinite: false,
       centerPadding: "350px",
-      className: "center",
       centerMode: true,
       slidesToShow: 1,
       speed: 500,
@@ -446,13 +445,13 @@ function App() {
             <div className="mx-auto flex flex-col justify-center py-5 sm:flex-row">
               <a
                 href="https://neto.game/"
-                className="mx-2 my-6 w-max cursor-pointer rounded-full bg-[#161CBB] px-7 py-3 text-xl text-white outline-none outline-2 delay-75 hover:bg-[#161CBB] hover:outline-offset-2 hover:outline-[#4c51e2] sm:text-2xl"
+                className="mx-2 my-3 w-max cursor-pointer rounded-full bg-[#161CBB] px-7 py-3 text-xl text-white outline-none outline-2 delay-75 hover:bg-[#161CBB] hover:outline-offset-2 hover:outline-[#4c51e2] sm:text-2xl"
               >
                 Visit Neto token website
               </a>
               <a
                 href="/"
-                className="mx-2 my-6 w-max cursor-pointer rounded-full bg-white px-7 py-3 text-xl text-black outline-none outline-2 delay-75 hover:bg-gray-200 hover:outline-offset-2 hover:outline-white sm:text-2xl"
+                className="mx-2 my-3 w-max cursor-pointer rounded-full bg-white px-7 py-3 text-xl text-black outline-none outline-2 delay-75 hover:bg-gray-200 hover:outline-offset-2 hover:outline-white sm:text-2xl"
               >
                 Connect Wallet
               </a>
@@ -463,7 +462,7 @@ function App() {
         <section className="video_bg2 py-10">
           <div className="video_bg3 mx-auto max-w-7xl">
             <div className="apearanimationobserver px-5 py-6 md:flex">
-              <h2 className="pb-5 pr-5 text-center text-white">
+              <h2 className="pb-5 px-2 text-center text-white">
                 Neto's roadmap includes several gaming, NFT, and Metaverse
                 projects
               </h2>
@@ -512,7 +511,7 @@ function App() {
                   <div className="h-full p-3">
                     <div className="apearanimationobserver relative flex h-full cursor-pointer flex-col justify-between overflow-hidden rounded-3xl border border-white/20 bg-[#8080804d] pt-8 text-white backdrop-blur-xl transition-all hover:scale-[98%]">
                       <div className="pl-4 pt-5">
-                        <h3 className="w-2/3 pb-3 text-2xl leading-8 xl:text-[30px]">
+                        <h3 className="px-4 pb-3 text-center text-2xl leading-8 xl:text-[30px]">
                           Neto's first gaming project is the Netoball game
                         </h3>
                         <p className="pt-3 text-[#bababa]">
@@ -536,7 +535,7 @@ function App() {
                   <div className="h-full p-3">
                     <div className="apearanimationobserver h-full cursor-pointer items-center overflow-hidden rounded-3xl border border-white/20 bg-[#8080804d] text-white backdrop-blur-xl transition-all hover:scale-[98%]">
                       <img alt="" src="sec_2_pic_5.png" className="" />
-                      <div className="mx-auto w-2/3 px-5 py-5 text-center">
+                      <div className="mx-auto sm:w-2/3 w-11/12 px-5 py-5 text-center">
                         <p className="text-2xl text-[#bababa]">
                           It's important to note that all share purchases are
                           conducted in a secure and reliable manner via smart
@@ -558,11 +557,11 @@ function App() {
                 <div>
                   <img
                     alt=""
-                    src="sec_4_pic.png "
+                    src="sec_4_pic.png"
                     className="rounded-3xl backdrop-blur-2xl"
                   />
                 </div>
-                <div className="my-5 rounded-2xl bg-[#8080804d] p-10 py-10 text-center text-white backdrop-blur-lg md:py-32 xl:py-20">
+                <div className="my-5 rounded-2xl bg-[#8080804d] p-5 py-10 text-center text-white backdrop-blur-lg md:py-32 xl:py-20">
                   <h2>Neto Game's Revenue Sources from the Netoball Game</h2>
                   <p className="pt-10 text-white">
                     Neto's income from this game includes in-game ads, in-app
@@ -582,7 +581,7 @@ function App() {
               <div className="relative mx-auto md:w-fit">
                 <div className="relative z-20 max-w-7xl rounded-[40px] border-4 border-white/40 bg-[linear-gradient(135deg,#fff6,#ffffff12)] p-2">
                   <div className="flex flex-col items-center md:flex-row-reverse">
-                    <div className="p-8 md:w-[40%]">
+                    <div className="sm:p-8 px-2 py-8 md:w-[40%]">
                       <div className="font-abcgintonord_extrabold text-3xl uppercase text-white xl:text-5xl">
                         Limited Netoball Share Offering
                       </div>
@@ -611,7 +610,7 @@ function App() {
               <div className="relative mx-auto md:w-fit">
                 <div className="relative z-20 max-w-7xl rounded-[40px] border-4 border-white/40 bg-[linear-gradient(135deg,#fff6,#ffffff12)] p-2">
                   <div className="flex flex-col items-center md:flex-row">
-                    <div className="p-8 md:w-[40%]">
+                    <div className="sm:p-8 px-2 py-8 md:w-[40%]">
                       <div className="font-abcgintonord_extrabold text-3xl uppercase text-white xl:text-5xl">
                         Exclusive Neto TV Subscription
                       </div>
@@ -640,7 +639,7 @@ function App() {
               <div className="relative mx-auto md:w-fit">
                 <div className="relative max-w-7xl rounded-[40px] border-4 border-white/40 bg-[linear-gradient(135deg,#fff6,#ffffff12)] p-2">
                   <div className="flex flex-col items-center md:flex-row-reverse">
-                    <div className="p-8 md:w-[40%]">
+                    <div className="sm:p-8 px-2 py-8 md:w-[40%]">
                       <div className="font-abcgintonord_extrabold text-3xl uppercase text-white xl:text-5xl">
                         Earn with Neto Affiliate
                       </div>
@@ -672,7 +671,7 @@ function App() {
               <div className="relative mx-auto md:w-fit">
                 <div className="relative z-20 max-w-7xl rounded-[40px] border-4 border-white/40 bg-[linear-gradient(135deg,#fff6,#ffffff12)] p-2">
                   <div className="flex flex-col items-center md:flex-row">
-                    <div className="p-8 md:w-[40%]">
+                    <div className="sm:p-8 px-2 py-8 md:w-[40%]">
                       <div className="font-abcgintonord_extrabold text-3xl uppercase text-white xl:text-5xl">
                         Accumulate Neto Tokens Easily
                       </div>
@@ -692,7 +691,7 @@ function App() {
                         loop
                         muted
                         autoPlay
-                        src="video_sec2_2.mp4"
+                        src="video_sec2_4.mp4"
                         className="rounded-[40px]"
                       ></video>
                     </div>
@@ -716,7 +715,7 @@ function App() {
                     className="rounded-3xl backdrop-blur-2xl"
                   />
                 </div>
-                <div className="my-5 rounded-2xl bg-[#8080804d] p-10 py-10 text-center text-white backdrop-blur-lg md:py-20 xl:py-20">
+                <div className="my-5 rounded-2xl bg-[#8080804d] p-5 py-10 text-center text-white backdrop-blur-lg md:py-20 xl:py-20">
                   <h2>
                     Increase Neto Token Value with Subscription Fee
                     Contributions
