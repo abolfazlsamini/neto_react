@@ -549,56 +549,41 @@ function App() {
             </div>
             <div className="flex lg:flex-row flex-col justify-center px-3">
               <div class="px-1 w-full">
-                <div class="my-2 flex flex-col items-center rounded-lg bg-[#80808060] border border-white/20 p-2 py-5 text-white backdrop-blur-xl">
-                  <h3 class="text-center text-black">GET REWARD</h3>
-                  <div class="flex w-full flex-col items-center justify-center py-3 md:flex-row">
-                    <div class="max-w-[220px] p-1 md:w-1/2">
-                      <label>MATRIC Amount</label>
+                <div class="my-2 flex flex-col items-center rounded-lg bg-[#80808060] border border-white/20 p-2 py-12 text-white backdrop-blur-xl">
+                  <h3 class="text-center text-white">GET REWARD</h3>
+                  <div class="flex w-full flex-col items-center py-8 justify-center md:flex-row">
+                    <div className="flex flex-col md:flex-row w-9/12 ">
                       <input
                         type="text"
-                        class="w-full mt-1 rounded-md bg-[#808080bd] border border-white/20 p-1 text-white placeholder:text-white/50"
-                        placeholder="Amount..."
+                        class="w-full rounded-md bg-[#808080bd] border border-white/20 p-1 py-2 text-white placeholder:text-white/50"
+                        placeholder="Referral"
                       />
                     </div>
-                    <div class="max-w-[220px] p-1 md:w-1/2">
-                      <label>MATRIC Amount</label>
-                      <input
-                        type="text"
-                        class="mt-1 w-full rounded-md border border-white/20 bg-[#808080bd] p-1 text-white"
-                      />
-                    </div>
-                  </div>
-                  <div className="py-10">
                     <a
                       href="/"
-                      className="mx-2 my-3 w-max cursor-pointer rounded-full bg-white px-7 py-3 text-xl text-black outline-none outline-2 delay-75 hover:bg-gray-200 hover:outline-offset-2 hover:outline-white sm:text-2xl"
-                    >
-                      Referral
-                    </a>
-                    <a
-                      href="/"
-                      className="mx-2 my-3 w-max cursor-pointer rounded-full bg-white px-7 py-3 text-xl text-black outline-none outline-2 delay-75 hover:bg-gray-200 hover:outline-offset-2 hover:outline-white sm:text-2xl"
+                      className="mx-2 my-3 w-max cursor-pointer rounded-lg bg-white px-7 py-2 text-xl text-black outline-none outline-2 delay-75 hover:bg-gray-200 hover:outline-offset-2 hover:outline-white "
                     >
                       Connect&nbsp;or&nbsp;Get
                     </a>
                   </div>
                 </div>
-                <div class="my-2 flex flex-col items-center rounded-lg bg-[#80808060] border border-white/20 p-2 py-5 text-white backdrop-blur-xl">
-                  <h3 class="text-center text-black">GET Referral</h3>
-                  <h3 className="pt-4 px-4 pb-3 text-center text-black text-2xl leading-8 xl:text-[30px]">
+                <div class="my-2 flex flex-col items-center rounded-lg bg-[#80808060] border border-white/20 p-2 py-12 text-white backdrop-blur-xl">
+                  <h3 class="text-center text-white">GET Referral</h3>
+                  <h3 className="pt-4 px-4  text-center text-black text-2xl leading-8 xl:text-[30px]">
                     30 MATIC
                   </h3>
 
-                  <div className="py-10">
+                  <div class="flex w-full flex-col items-center py-8 justify-center md:flex-row">
+                    <div className="flex flex-col md:flex-row w-9/12 ">
+                      <input
+                        type="text"
+                        class="w-full rounded-md bg-[#808080bd] border border-white/20 p-1 py-2 text-white placeholder:text-white/50"
+                        placeholder="Referral"
+                      />
+                    </div>
                     <a
                       href="/"
-                      className="mx-2 my-3 w-max cursor-pointer rounded-full bg-white px-7 py-3 text-xl text-black outline-none outline-2 delay-75 hover:bg-gray-200 hover:outline-offset-2 hover:outline-white sm:text-2xl"
-                    >
-                      Referral
-                    </a>
-                    <a
-                      href="/"
-                      className="mx-2 my-3 w-max cursor-pointer rounded-full bg-white px-7 py-3 text-xl text-black outline-none outline-2 delay-75 hover:bg-gray-200 hover:outline-offset-2 hover:outline-white sm:text-2xl"
+                      className="mx-2 my-3 w-max cursor-pointer rounded-lg bg-white px-7 py-2 text-xl text-black outline-none outline-2 delay-75 hover:bg-gray-200 hover:outline-offset-2 hover:outline-white "
                     >
                       Connect&nbsp;or&nbsp;Get
                     </a>
@@ -606,56 +591,42 @@ function App() {
                 </div>
               </div>
               <div class="px-1 w-full">
-                <div class="my-2 flex flex-col items-center rounded-lg bg-[#80808060] border border-white/20 p-2 py-5 text-white backdrop-blur-xl">
-                  <h3 class="text-center text-black">SET TELEGRAM ID FOR TV</h3>
-                  <div class="flex w-full flex-col items-center justify-center py-3 md:flex-row">
-                    <div class="max-w-[220px] p-1 md:w-1/2">
-                      <label>MATRIC Amount</label>
+                <div class="my-2 flex flex-col items-center rounded-lg bg-[#80808060] border border-white/20 p-2 py-12 text-white backdrop-blur-xl">
+                  <h3 class="text-center text-white">SET TELEGRAM ID FOR TV</h3>
+
+                  <div class="flex w-full flex-col items-center py-8 justify-center md:flex-row">
+                    <div className="flex flex-col md:flex-row w-9/12 ">
                       <input
                         type="text"
-                        class="mt-1 w-full rounded-md border border-white/20 bg-[#808080bd] p-1 text-white placeholder:text-white/50"
-                        placeholder="Amount..."
+                        class="w-full rounded-md bg-[#808080bd] border border-white/20 p-1 py-2 text-white placeholder:text-white/50"
+                        placeholder="TELEGRAM ID"
                       />
                     </div>
-                    <div class="max-w-[220px] p-1 md:w-1/2">
-                      <label>MATRIC Amount</label>
-                      <input
-                        type="text"
-                        class="mt-1 w-full rounded-md border border-white/20 bg-[#808080bd] p-1 text-white"
-                      />
-                    </div>
-                  </div>
-                  <div className="py-10">
                     <a
                       href="/"
-                      className="mx-2 my-3 w-max cursor-pointer rounded-full bg-white px-7 py-3 text-xl text-black outline-none outline-2 delay-75 hover:bg-gray-200 hover:outline-offset-2 hover:outline-white sm:text-2xl"
-                    >
-                      TELEGRAM&nbsp;ID
-                    </a>
-                    <a
-                      href="/"
-                      className="mx-2 my-3 w-max cursor-pointer rounded-full bg-black px-7 py-3 text-xl text-white outline-none outline-2 delay-75 hover:bg-gray-900 hover:outline-offset-2 hover:outline-black sm:text-2xl"
+                      className="mx-2 my-3 w-max cursor-pointer rounded-lg bg-black px-7 py-2 text-xl text-white outline-none outline-2 delay-75 hover:bg-gray-800 hover:outline-offset-2 hover:outline-black "
                     >
                       SUBMIT
                     </a>
                   </div>
                 </div>
-                <div class="my-2 flex flex-col items-center rounded-lg bg-[#80808060] border border-white/20 p-2 py-5 text-white backdrop-blur-xl">
-                  <h3 class="text-center text-black">BUY NETO SHARE</h3>
-                  <h3 className="pt-4 px-4 pb-3 text-black text-center text-2xl leading-8 xl:text-[30px]">
+                <div class="my-2 flex flex-col items-center rounded-lg bg-[#80808060] border border-white/20 p-2 py-12 text-white backdrop-blur-xl">
+                  <h3 class="text-center text-white">BUY NETO SHARE</h3>
+                  <h3 className="pt-4 px-4  text-center text-black text-2xl leading-8 xl:text-[30px]">
                     440 Neto / 660 Neto
                   </h3>
 
-                  <div className="py-10">
+                  <div class="flex w-full flex-col items-center py-8 justify-center md:flex-row">
+                    <div className="flex flex-col md:flex-row w-9/12 ">
+                      <input
+                        type="text"
+                        class="w-full rounded-md bg-[#808080bd] border border-white/20 p-1 py-2 text-white placeholder:text-white/50"
+                        placeholder="Referral"
+                      />
+                    </div>
                     <a
                       href="/"
-                      className="mx-2 my-3 w-max cursor-pointer rounded-full bg-white px-7 py-3 text-xl text-black outline-none outline-2 delay-75 hover:bg-gray-200 hover:outline-offset-2 hover:outline-white sm:text-2xl"
-                    >
-                      Amount&nbsp;(Neto)
-                    </a>
-                    <a
-                      href="/"
-                      className="mx-2 my-3 w-max cursor-pointer rounded-full bg-black px-7 py-3 text-xl text-white outline-none outline-2 delay-75 hover:bg-gray-900 hover:outline-offset-2 hover:outline-black sm:text-2xl"
+                      className="mx-2 my-3 w-max cursor-pointer rounded-lg bg-black px-7 py-2 text-xl text-white outline-none outline-2 delay-75 hover:bg-gray-800 hover:outline-offset-2 hover:outline-black "
                     >
                       BUY
                     </a>
