@@ -621,7 +621,7 @@ function App() {
                       <input
                         type="text"
                         class="w-full rounded-md bg-[#808080bd] border border-white/20 p-1 py-2 text-white placeholder:text-white/50"
-                        placeholder="Referral"
+                        placeholder="Amount (Neto)"
                       />
                     </div>
                     <a
